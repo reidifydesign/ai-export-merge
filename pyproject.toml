@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-export-merge"
+version = "0.1.0"
+description = "Joins your Search Console generative AI export and Bing AI Performance export into one per-page table, locally."
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+ai-export-merge = "ai_export_merge.cli:main"
+
+[tool.setuptools]
+packages = ["ai_export_merge"]
