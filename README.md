@@ -10,6 +10,8 @@ python -m ai_export_merge merge gsc-export/ bing-export/ --site example.com
 
 The screenshot is a real run on the synthetic files in `examples/`. Python 3.10 or newer, standard library only, no network access.
 
+Disclosure: Reidify, the studio behind this, sells AEO services. This is published as data with its method, not as a pitch.
+
 ## Why this exists
 
 Both search engines now report how your pages show up in AI answers, and each report lives in its own console.
